@@ -31,9 +31,9 @@ public class Target : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        Destroy (gameObject);
+        Destroy(gameObject);
     }
 
     Vector3 RandomForce()
