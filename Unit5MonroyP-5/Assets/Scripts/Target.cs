@@ -31,6 +31,7 @@ public class Target : MonoBehaviour
     private void OnMouseDown()
     {
         Destroy(gameObject);
+        gameManager.UpdateScore(5);
     }
 
     private void OnTriggerEnter(Collider other)
